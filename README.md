@@ -26,9 +26,8 @@ The project was executed through a distributed collaborative workflow designed a
 * **Contributions:** Defined the mathematical constraints for the custom Bounded Double-Arctan loss function. Handled the prompt sequencing and synthesis for the core neural network structure, successfully integrating the custom loss tensor operations into the model training framework.
 
 ### Akash Magai 
-* **Role:** Compute Execution and Local Optimization
-* **Contributions:** Managed the local runtime environment and hardware configuration. Successfully executed the extended training runs on local hardware, maintaining continuous compute stability over a 6-hour execution cycle, and captured the final convergence metrics and performance outputs.
-
+* **Role:** Experimental Validation, Model Training, and Performance Analysis
+* **Contributions:** Managed the local training environment and hardware configuration, successfully executed and monitored a 6-hour VGG-19 training cycle using the proposed Bounded Double-Arctan loss function, analyzed convergence and performance metrics, and documented the final experimental results.
 ### Raushan Mehta
 * **Role:** Dataset Preparation and Execution Verification
 * **Contributions:** Sourced and downloaded the Intel Image Classification dataset from Kaggle, setting up the local folder structures for the 6 target classes. Verified that the early-stage code blocks loaded the images correctly without errors, and assisted in cross-checking the final accuracy logs after the 6-hour training run completed.
