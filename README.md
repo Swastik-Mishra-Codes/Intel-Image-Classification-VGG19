@@ -21,11 +21,11 @@ $$Loss = \arctan(\text{error}^2) \cdot e^{\arctan(\text{error}^2)} + 10^{-4} \cd
 
 The project was executed through a distributed collaborative workflow designed around an iterative code-generation and testing pipeline.
 
-### Swastik Mishra 
+### Swastik Mishra
 * **Role:** Algorithmic Formulation and Code Synthesis
 * **Contributions:** Defined the mathematical constraints for the custom Bounded Double-Arctan loss function. Handled the prompt sequencing and synthesis for the core neural network structure, successfully integrating the custom loss tensor operations into the model training framework.
 
-### Akash Magai
+### Akash Magai 
 * **Role:** Compute Execution and Local Optimization
 * **Contributions:** Managed the local runtime environment and hardware configuration. Successfully executed the extended training runs on local hardware, maintaining continuous compute stability over a 6-hour execution cycle, and captured the final convergence metrics and performance outputs.
 
